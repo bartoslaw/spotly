@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/small_padding">
+
+    <com.makeramen.RoundedImageView
+        android:id="@+id/list_element_avatar"
+        android:layout_width="@dimen/small_avatar_size"
+        android:layout_height="@dimen/small_avatar_size"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher"
+        app:riv_corner_radius="@dimen/round_radius"
+        app:riv_oval="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_toEndOf="@+id/list_element_avatar"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_element_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/list_element_title_text_size"
+            android:textStyle="bold"
+            tools:text="Francisco Hopkins" />
+
+        <TextView
+            android:id="@+id/list_element_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/list_element_subtitle_text_size"
+            tools:text="50m - Adele - Rolling in the deep" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/list_element_extra_item"
+        android:layout_width="@dimen/small_avatar_size"
+        android:layout_height="@dimen/small_avatar_size"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="@dimen/activity_horizontal_margin"
+        android:src="@mipmap/ic_launcher" />
+
+</RelativeLayout>
