@@ -6,14 +6,21 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="small_margin">8dp</dimen>
+    <dimen name="big_margin">24dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
 
     <dimen name="small_avatar_size">52dp</dimen>
+    <dimen name="big_avatar_size">81dp</dimen>
     <dimen name="round_radius">90dp</dimen>
+    <dimen name="small_radius">8dp</dimen>
     <dimen name="list_element_title_text_size">16sp</dimen>
     <dimen name="list_element_subtitle_text_size">12sp</dimen>
     <dimen name="chat_element_title_text_size">16sp</dimen>
     <dimen name="chat_element_subtitle_text_size">12sp</dimen>
     <dimen name="small_padding">4dp</dimen>
     <dimen name="medium_padding">8dp</dimen>
+    <dimen name="splash_screen_text_size">34sp</dimen>
+    <dimen name="album_cover_size">200dp</dimen>
+    <dimen name="track_name_text_size">18sp</dimen>
+    <dimen name="track_length_text_size">16sp</dimen>
 </resources>
