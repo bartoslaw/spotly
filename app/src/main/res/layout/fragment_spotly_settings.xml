@@ -29,7 +29,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="@dimen/track_length_text_size"
-        tools:text="Settings" />
+        tools:text="Settings"
+        />
 
     <View
         android:layout_width="match_parent"
@@ -38,6 +39,7 @@
         android:background="@android:color/darker_gray" />
 
     <Button
+        android:id="@+id/spotly_settings_buy_premium"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginEnd="@dimen/activity_horizontal_margin"

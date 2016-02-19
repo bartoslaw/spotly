@@ -27,7 +27,7 @@
             android:layout_centerVertical="true"
             android:layout_margin="@dimen/small_margin"
             android:layout_toEndOf="@id/spotly_details_avatar"
-            android:layout_toStartOf="@id/spotly_details_button_like"
+            android:layout_toStartOf="@+id/spotly_details_button_like"
             android:orientation="vertical">
 
             <TextView
